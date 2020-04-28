@@ -14,7 +14,7 @@ node {
 	}
     stage('Nexus Repository'){	   
 
-	    nexusArtifactUploader artifacts: [[artifactId: 'devops-mobility', classifier: '', file: 'app/build/outputs/apk/release/devops-mobility.apk', type: 'apk']], credentialsId: 'bcebae3d-4df0-4fb2-8ca4-6ee8af37cabb', groupId: 'com.android.devops-dev', nexusUrl: 'localhost:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'devopsmobility', version: '1.1'
+	    nexusArtifactUploader artifacts: [[artifactId: 'androidPOC', classifier: '', file: 'app/build/outputs/apk/release/androidPOC.apk', type: 'apk']], credentialsId: 'bcebae3d-4df0-4fb2-8ca4-6ee8af37cabb', groupId: 'com.android.devops-dev', nexusUrl: 'localhost:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'devopsmobility', version: '1.1'
 
 	}
     stage('App Center'){	   
