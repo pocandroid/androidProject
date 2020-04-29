@@ -29,7 +29,6 @@ android {
         }
 
 
-
     defaultConfig {
         applicationId "com.sample.pocapplication"
         minSdkVersion 18
