@@ -61,8 +61,7 @@ android {
                 }
                 signingConfig signingConfigs.release
         }
-    }
- 
+    } 
 }
 
 
